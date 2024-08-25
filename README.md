@@ -1,11 +1,5 @@
 # PCA_face_detection
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-</picture>
-
 **PCA (Principal Component Analysis)** is the simplest of the Dimensionality Reduction algorithms based on a linear model. This method is based on the observation that data are not usually randomly distributed in space but are usually distributed near certain special lines/surfaces. PCA considers a special case where those special surfaces are linear in form, called subspaces.
 The simplest way to reduce the dimensionality of the data from D to K < D is to keep only the K most important elements. However, this is certainly not the best way to do it because we do not know which element is more important. Or in the worst case, the amount of information that each element carries is the same, removing any element will lead to the loss of a large amount of information.
 However, if we can represent the original data vectors in a new basis system in which the importance of the components is clearly different, then we can ignore the least important components.
@@ -20,6 +14,9 @@ PCA is a method of finding a new basis system so that the information of the dat
 5. Sort the eigenvectors in descending order of eigenvalues
 6. Select K eigenvectors corresponding to the K largest eigenvalues ​​to construct a matrix Uk whose columns form an orthogonal system. These K vectors, also called principal components, form a subspace that closely approximates the distribution of the original normalized data.
 7. Project the data onto the new PCA space, creating a weight matrix.
+
+<img alt="Steps to perform PCA Algorithim." src="[https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png](https://machinelearningcoban.com/assets/27_pca/pca_procedure.png)">
+
 
 ## Build PCA for Face Detection
 In this project, I used PCA to reduce the dimensionality of facial image data, then searches for similarities between new faces and the training set (known images) using Euclidean distance.
