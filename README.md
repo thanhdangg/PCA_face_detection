@@ -14,5 +14,5 @@ PCA is a method of finding a new basis system so that the information of the dat
 6. Select K eigenvectors corresponding to the K largest eigenvalues ​​to construct a matrix Uk whose columns form an orthogonal system. These K vectors, also called principal components, form a subspace that closely approximates the distribution of the original normalized data.
 7. Project the data onto the new PCA space, creating a weight matrix.
 
-** Build PCA for Face Detection
+**Build PCA for Face Detection
 In this project, I used PCA to reduce the dimensionality of facial image data, then searches for similarities between new faces and the training set (known images) using Euclidean distance.
