@@ -16,7 +16,7 @@ PCA is a method of finding a new basis system so that the information of the dat
 7. Project the data onto the new PCA space, creating a weight matrix.
 
 ![Steps to perform PCA Algorithim](pca_procedure.png)
-
+Read more: [Machine Learning co ban](https://machinelearningcoban.com/2017/06/15/pca)
 
 ## Build PCA for Face Detection
 In this project, I used PCA to reduce the dimensionality of facial image data, then searches for similarities between new faces and the training set (known images) using Euclidean distance.
