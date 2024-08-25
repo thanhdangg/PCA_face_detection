@@ -5,8 +5,8 @@ However, if we can represent the original data vectors in a new basis system in 
 PCA is a method of finding a new basis system so that the information of the data is mainly concentrated in a few coordinates, the rest only carries a small amount of information. And to simplify the calculation, PCA will find an orthonormal system to be the new basis.
 
 ## Steps to perform PCA Algorithim:
-1. Calculate the expectation vector of the entire data \n
-2. Subtract each data point from the expected vector of the entire data \n
+1. Calculate the expectation vector of the entire data 
+2. Subtract each data point from the expected vector of the entire data 
 3. Calculate the covariance matrix
 4. Calculate eigenvalues ​​and eigenvectors from the covariance matrix.
 5. Sort the eigenvectors in descending order of eigenvalues
