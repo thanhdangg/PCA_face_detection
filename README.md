@@ -1,4 +1,11 @@
-﻿# PCA_face_detection
+# PCA_face_detection
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
+
 **PCA (Principal Component Analysis)** is the simplest of the Dimensionality Reduction algorithms based on a linear model. This method is based on the observation that data are not usually randomly distributed in space but are usually distributed near certain special lines/surfaces. PCA considers a special case where those special surfaces are linear in form, called subspaces.
 The simplest way to reduce the dimensionality of the data from D to K < D is to keep only the K most important elements. However, this is certainly not the best way to do it because we do not know which element is more important. Or in the worst case, the amount of information that each element carries is the same, removing any element will lead to the loss of a large amount of information.
 However, if we can represent the original data vectors in a new basis system in which the importance of the components is clearly different, then we can ignore the least important components.
